@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './nav';
+import Footer from './footer';
 
 function career() {
   return (
     <div>
-    <NavBar />
+      <Footer />
     </div>
     
   );

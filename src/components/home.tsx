@@ -1,12 +1,16 @@
 import React from 'react';
-import NavBar from './nav';
-
+import Footer from './footer';
+import About from './about';
+import Tech from './technology';
+import Solution from './solutions';
 function Home() {
   return (
     <div>
-    <NavBar />
+      <About />
+      <Solution />
+      <Tech />
+      <Footer />
     </div>
-    
   );
 }
 

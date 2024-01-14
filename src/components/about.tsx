@@ -1,19 +1,27 @@
 import React from 'react';
-
-const About =() =>{
+import homepageUIIpad from '../images/homepage-UI-ipad.png';
+import { Col } from 'react-bootstrap';
+const About = () => {
   return (
     <div>
       <div className="container">
+        <Col className="text-center">
         <h1>About Us</h1>
-        <p>
-          Welcome to Sportable Ltd., your trusted partner in delivering cutting-edge sports technology solutions.
-          Our journey began with a passion for innovation and a commitment to revolutionizing the sports industry.
-          Today, we stand proud as leaders in providing state-of-the-art technologies to athletes, teams, and sports enthusiasts worldwide.
-        </p>
-        {/* Add more content as needed */}
+        </Col>
+        <p>Our suite of Smart Balls, player tracking wearables, visualisation and analysis software and APIs
+           empower our partners to reach new levels of competitive advantage in player and team performance,
+            fan engagement and officiating, all while creating new revenue streams for teams, leagues, and 
+            their commercial partners.</p>
+
+        {/* Add the image below the paragraph */}
+        <img
+          src={homepageUIIpad}
+          alt="Sportable Homepage UI on iPad"
+          style={{ maxWidth: '100%', verticalAlign: 'middle' }}
+        />
       </div>
     </div>
   );
-}
+};
 
 export default About;

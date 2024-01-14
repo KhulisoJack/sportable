@@ -1,0 +1,9 @@
+.submitBTN {
+    margin-top: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 20%;
+    font-weight: 500;
+    font-family: Mark pro,sans-serif;
+    margin-bottom: 20px;
+}
